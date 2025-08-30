@@ -1,0 +1,13 @@
+/build/
+/*.user
+/*.swp
+*.o
+*.obj
+*.exe
+*.out
+/lib/nlohmann/  # only if it's a third-party header-only library that can be installed
+
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
